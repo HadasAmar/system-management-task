@@ -182,10 +182,10 @@ A Postman collection is included for testing of all endpoints.
 
 1. Open Postman
 2. Go to **Import** > **Choose File**
-3. Select the file: `postman/task-manager-collection.json`
+3. Select the file: `postman/task_manager.postman_collection.json`
 4. Start testing!
 
-You can also [download the collection here](.backend/postman/task_manager.postman_collection.json)
+You can also [download the collection here](./backend/postman/task_manager.postman_collection.json)
 
 ---
 
