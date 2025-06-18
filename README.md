@@ -189,6 +189,10 @@ You can also [download the collection here](./backend/postman/task_manager.postm
 
 ---
 
+### 📸 Screenshot
+
+![screenShot](https://github.com/user-attachments/assets/8795cda3-789e-40b7-af66-92a976df6e1a)
+
 ## 📅 Author
 
 Developed by **Hadas Amar**
