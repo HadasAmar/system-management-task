@@ -9,14 +9,14 @@ const api = axios.create({
   },
 });
 
-// קבלת כל המשימות
+// get all tasks
 export const getTasks = () => api.get('/tasks');
 
-// יצירת משימה חדשה
+// create a new task
 export const createTask = (task) => api.post('/tasks', task);
 
-// עדכון סטטוס משימה (למשל סימון כהושלם)
+// update a task
 export const updateTask = (id, data = {}) => api.put(`/tasks/${id}`, data);
 
-// מחיקת משימה
+// delete a task
 export const deleteTask = (id) => api.delete(`/tasks/${id}`);
